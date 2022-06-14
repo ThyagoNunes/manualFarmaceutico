@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   height: 1200px;
@@ -36,10 +36,9 @@ body {
   position: absolute;
   display: flex;
   justify-content: flex-end;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #1e2f97;
 }
-
 
 .imgHeader {
   left: 0%;
@@ -79,7 +78,7 @@ body {
   padding: 10px;
   border-radius: 5px;
   font-weight: bold;
-  font-size:  x-large;
+  font-size: x-large;
   color: #ffffff;
   text-decoration: none;
   text-shadow: none;
@@ -108,10 +107,9 @@ span.backForward {
   text-decoration: none;
   gap: 5px;
   border: 2px solid #64ae64;
-  font-family: 'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
   background-color: #bddcbd;
 }
-
 
 span.backForward:hover {
   text-decoration: none;
@@ -156,7 +154,7 @@ aside.aside {
   align-items: center;
 }
 
-ul.asid{
+ul.asid {
   position: relative;
   min-width: 20%;
 }
@@ -197,7 +195,6 @@ ul.asid{
   border-bottom: 2px solid #000;
   text-underline-offset: 10px;
 }
-
 
 .aAside2 {
   margin-right: 30px;
@@ -248,10 +245,6 @@ ul.asid{
   zoom: 150%;
 }
 
-
-
-
-
 section.section {
   top: 25px;
   position: relative;
@@ -269,7 +262,26 @@ section.section {
   border-radius: 20px;
 }
 
+section.sectionManual {
+  position: relative;
 
+  padding: 5%;
+  width: 40%;
+
+  margin: auto;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+footer.space {
+  padding-top: 3rem;
+}
 section.sectionPdf {
   position: relative;
   width: 50%;
@@ -285,8 +297,32 @@ section.sectionPdf {
   padding-bottom: 10px;
   font-size: xx-large;
   font-weight: bold;
-  text-align: center;
+  text-align: start;
   margin-bottom: 50px;
+}
+
+.titleAutores {
+  width: 100%;
+  right: 6.5rem;
+  padding-bottom: 10px;
+  font-size: large;
+  position: relative;
+  font-weight: bold;
+  text-align: start;
+}
+
+.formatText {
+  right: 20%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: start;
+  font-size: large;
+}
+
+.formatAllDocument {
+  width: 70%;
+  text-align: center;
 }
 
 .body {
@@ -383,12 +419,10 @@ ul {
 .body {
   width: 100%;
   border-bottom: 2px solid black;
-
 }
 
 .body2 {
-
-} 
+}
 
 #multi-bg {
   height: 1200px;
@@ -399,12 +433,11 @@ ul {
 .container {
   top: 10%;
   z-index: 1;
-  perspective:3000px;
+  perspective: 3000px;
   width: 50%;
   height: 1000px;
   margin: auto;
 }
-
 
 .container .book {
   position: relative;
@@ -414,25 +447,25 @@ ul {
   height: 750px;
   margin: 5% auto;
   border-radius: 2px 4px 4px 2px;
-  background: linear-gradient(45deg,  #bddcbd 50%, #bddcbd 50%);
+  background: linear-gradient(45deg, #bddcbd 50%, #bddcbd 50%);
   font-family: acumin-pro, sans-serif;
-  -webkit-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
-  -moz-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
-  box-shadow: 13px 13px 8px 0px rgba(151, 146, 153,0.6);
+  -webkit-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153, 0.6);
+  -moz-box-shadow: 13px 13px 8px 0px rgba(151, 146, 153, 0.6);
+  box-shadow: 13px 13px 8px 0px rgba(151, 146, 153, 0.6);
   font-weight: 400;
   color: #2b2b2b;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform .5s;
-  -moz-transition: -moz-transform .5s;
-  transition: transform .5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .container .book:hover {
-  -webkit-transform: rotate3d(0,1,0,35deg);
-  -moz-transform: rotate3d(0,1,0,35deg);
-  transform: rotate3d(0,1,0,35deg);
+  -webkit-transform: rotate3d(0, 1, 0, 35deg);
+  -moz-transform: rotate3d(0, 1, 0, 35deg);
+  transform: rotate3d(0, 1, 0, 35deg);
 }
 
 .container .book > div,
@@ -441,7 +474,6 @@ ul {
   position: absolute;
 }
 
-
 .container .front {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -449,12 +481,12 @@ ul {
   -webkit-transform-origin: 0% 50%;
   -moz-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
-  -webkit-transition: -webkit-transform .5s;
-  -moz-transition: -moz-transform .5s;
-  transition: transform .5s;
-  -webkit-transform: translate3d(0,0,20px);
-  -moz-transform: translate3d(0,0,20px);
-  transform: translate3d(0,0,20px);
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transform: translate3d(0, 0, 20px);
+  -moz-transform: translate3d(0, 0, 20px);
+  transform: translate3d(0, 0, 20px);
   z-index: 10;
 }
 
@@ -463,18 +495,18 @@ ul {
   height: 750px;
 }
 
-.container .left-side{
+.container .left-side {
   width: 40px;
   left: -20px;
   height: 750px;
-  background: linear-gradient(45deg,  #64ae64 100%, #64ae64 100%);
-  -webkit-transform: rotate3d(0,1,0,-90deg);
-  -moz-transform: rotate3d(0,1,0,-90deg);
-  transform: rotate3d(0,1,0,-90deg);
-  opacity: 0.60;
+  background: linear-gradient(45deg, #64ae64 100%, #64ae64 100%);
+  -webkit-transform: rotate3d(0, 1, 0, -90deg);
+  -moz-transform: rotate3d(0, 1, 0, -90deg);
+  transform: rotate3d(0, 1, 0, -90deg);
+  opacity: 0.6;
 }
 
-.author{
+.author {
   font-family: Robotto, sans-serif;
   font-size: 40px;
   position: absolute;
@@ -485,7 +517,7 @@ ul {
   top: 550px;
   left: 50px;
   /* left: 100px; */
-  }
+}
 
 img.logo {
   position: absolute;
@@ -497,7 +529,7 @@ img.logo {
 }
 
 .container .front:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   bottom: 1px;
@@ -506,16 +538,15 @@ img.logo {
 }
 
 .container .cover:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 10px;
   bottom: 0;
   width: 3px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
 }
-
 
 .container h2 {
   width: 760px;
@@ -538,9 +569,8 @@ img.logo {
 
 .cover {
   /* 6DA077 */
-  background: linear-gradient(45deg,  #64ae64 20%, #bddcbd 100%);
+  background: linear-gradient(45deg, #64ae64 20%, #bddcbd 100%);
 }
-
 
 .left-side h2 span:first-child {
   color: #000;
@@ -549,14 +579,13 @@ img.logo {
   font-weight: bold;
 }
 
-.left-side h2 span:last-child{
+.left-side h2 span:last-child {
   font-family: acumin-pro, sans-serif;
   color: #000;
   font-size: 20px;
   padding-right: 20px;
   font-weight: bold;
-} 
-
+}
 
 .logoMedicamentos {
   width: 70px;
